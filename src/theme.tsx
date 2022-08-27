@@ -6,6 +6,7 @@ import {
 
 const config: ThemeConfig = {
   useSystemColorMode: true,
+  initialColorMode: "dark",
 };
 
 const override: ThemeOverride = {
@@ -16,6 +17,6 @@ const override: ThemeOverride = {
 };
 
 export default extendTheme({
-  ...config,
+  config,
   ...override,
 });
