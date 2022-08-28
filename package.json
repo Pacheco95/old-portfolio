@@ -8,20 +8,23 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.2",
+    "@chakra-ui/icons": "^2.0.9",
     "@chakra-ui/react": "^2.2.1",
     "@chakra-ui/theme-tools": "^2.0.2",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.9.0",
     "@fontsource/open-sans": "^4.5.11",
+    "classnames": "^2.3.1",
     "framer-motion": "^6.3.0",
     "next": "latest",
+    "next-i18next": "^12.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.1",
     "@commitlint/config-conventional": "^17.1.0",
+    "@types/classnames": "^2.3.1",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",

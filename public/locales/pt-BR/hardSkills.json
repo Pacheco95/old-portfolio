@@ -1,0 +1,19 @@
+{
+  "skills": [
+    "Código limpo e arquitetura limpa",
+    "Testes automatizados",
+    "DevOps & GitOps",
+    "Algoritmos e estruturas de dados",
+    "Programação funcional",
+    "Programação orientada a objetos",
+    "Programação imperativa",
+    "Segurança (autenticação & autorização)",
+    "Bancos relacionais e não relacionais",
+    "Monitoramentos e alertas",
+    "Desenvolvimento em ambiente cloud",
+    "Integração/entrega contínua (CI/CD)",
+    "Contêineres e orquestradores",
+    "Versionamento de código",
+    "Infraestrutura como serviço (IaaS)"
+  ]
+}

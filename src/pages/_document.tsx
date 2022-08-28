@@ -1,10 +1,14 @@
-import { Head, Html, Main, NextScript } from "next/document";
+import { DocumentProps, Head, Html, Main, NextScript } from "next/document";
 import { ColorModeScript } from "@chakra-ui/react";
 import theme from "../theme";
+import i18nextConfig from "../../next.config";
 
-const Document = () => {
+const Document = (props: DocumentProps) => {
+  const currentLocale =
+    props.__NEXT_DATA__.locale || i18nextConfig.i18n.defaultLocale;
+
   return (
-    <Html>
+    <Html lang={currentLocale}>
       <Head>
         <link
           rel="apple-touch-icon"

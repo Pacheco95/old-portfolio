@@ -1,0 +1,75 @@
+{
+  "title": "Tecnologias e ferramentas",
+  "tools": [
+    {
+      "category": "Linguagens",
+      "values": [
+        "Java",
+        "JavaScript",
+        "Typescript",
+        "Python",
+        "Rust",
+        "HTML5",
+        "CSS3",
+        "Solidity"
+      ]
+    },
+    {
+      "category": "Bibliotecas e frameworks",
+      "values": [
+        "React",
+        "Redux Toolkit",
+        "React Native",
+        "Next.js",
+        "Vue.js",
+        "Vuex",
+        "Nuxt",
+        "NestJS",
+        "Express",
+        "FastAPI",
+        "TailwindCSS",
+        "SCSS",
+        "Styled Components",
+        "Antd",
+        "MaterialUI",
+        "Vuetify",
+        "Celery",
+        "Jest",
+        "JQuery"
+      ]
+    },
+    {
+      "category": "Banco de dados",
+      "values": [
+        "MongoDB",
+        "Redis (cache)",
+        "PostgreSQL",
+        "MySQL",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "category": "Mensageria",
+      "values": ["SQS", "RabbitMQ (Celery)", "MQTT (Mosquitto)"]
+    },
+    {
+      "category": "Metodologias Ágeis",
+      "values": ["Kanban", "Scrum"]
+    },
+    {
+      "category": "Outras ferramentas",
+      "values": [
+        "Docker",
+        "Docker Compose",
+        "Kubernetes",
+        "AWS Lambda",
+        "AWS S3",
+        "GCP",
+        "Kibana",
+        "Grafana",
+        "Prometheus",
+        "NewRelic"
+      ]
+    }
+  ]
+}
