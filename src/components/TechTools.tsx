@@ -37,7 +37,7 @@ const TechTools = (props: BoxProps) => {
                     size="lg"
                     key={`${category}_${value}`}
                     variant="solid"
-                    colorScheme="teal"
+                    colorScheme="blackAlpha"
                   >
                     {value}
                   </Tag>

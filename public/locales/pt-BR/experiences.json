@@ -1,0 +1,102 @@
+{
+  "experiences": [
+    {
+      "title": "Stilingue",
+      "url": "https://stilingue.com.br",
+      "since": "2019/02/01",
+      "until": "2020/09/30",
+      "role": {
+        "title": "Cargo",
+        "value": "Desenvolvedor Back-End júnior"
+      },
+      "sections": [
+        {
+          "title": "Responsabilidades",
+          "value": [
+            "Desenvolvimento e manutenção da aplicação core",
+            "Quebra do monolito em microsserviços",
+            "Atuar em N2 diagnosticando e corrigindo problemas em ambiente de produção",
+            "Melhorar o fluxo de desenvolvimento e qualidade de código através de testes automatizados e code reviews",
+            "Refatoração de código legado",
+            "Documentar APIs REST",
+            "OKR Master"
+          ]
+        },
+        {
+          "title": "Conquistas",
+          "value": [
+            "Automatização e aceleração do processo de onboarding em mais de 85%",
+            "Maior agilidade no atendimento ao cliente através de automatização de processos manuais"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Usemobile",
+      "url": "https://usemobile.com.br",
+      "since": "2020/09/24",
+      "until": "2021/05/01",
+      "role": {
+        "title": "Cargo",
+        "value": "Desenvolvedor Full Stack Júnior"
+      },
+      "sections": [
+        {
+          "title": "Responsabilidades",
+          "value": [
+            "Desenvolvimento de dashboards para os apps Meu SPA, Sem Patrão e Eva Card",
+            "Melhorar o fluxo de desenvolvimento e qualidade de código através de testes automatizados e code reviews"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Yandeh",
+      "url": "https://www.yandeh.com.br",
+      "since": "2021/06/01",
+      "until": "2021/10/15",
+      "role": {
+        "title": "Cargo",
+        "value": "Desenvolvedor Full Stack Pleno"
+      },
+      "sections": [
+        {
+          "title": "Responsabilidades",
+          "value": [
+            "Desenvolvimento e manutenção do módulo da aplicação responsável pela normalização de produtos",
+            "Desenvolvimento e manutenção do dashboard de normalização de produtos",
+            "Desenvolvimento e manutenção de scripts SQL para padronização e normalização do banco de dados",
+            "Melhorar o fluxo de desenvolvimento e qualidade de código através de testes automatizados e code reviews",
+            "Refatoração de código legado",
+            "Documentar APIs REST",
+            "Otimizar utilização de recursos em ambiente cloud"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Luizalabs",
+      "url": "https://www.linkedin.com/company/luizalabs/mycompany",
+      "since": "2021/10/18",
+      "until": null,
+      "role": {
+        "title": "Cargo",
+        "value": "Engenheiro Full Stack"
+      },
+      "sections": [
+        {
+          "title": "Responsabilidades",
+          "value": [
+            "Desenvolvimento de um módulo de comissionamento e split de pagamento",
+            "Desenvolvimento de um integrador de marketplaces",
+            "Documentação de processos e APIs REST",
+            "Melhorar o fluxo de desenvolvimento e qualidade de código através de testes automatizados e code reviews",
+            "Desenvolvimento de arquiteturas de softwares robustos, flexíveis e escaláveis",
+            "Treinamento e mentoria de novos membros da equipe",
+            "Implementação de monitoramentos de sistemas e alertas"
+          ]
+        }
+      ]
+    }
+  ]
+}

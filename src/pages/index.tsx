@@ -7,8 +7,9 @@ import HardSkills from "../components/HardSkills";
 import SoftSkills from "../components/SoftSkills";
 import TechTools from "../components/TechTools";
 import cn from "classnames";
+import Experiences from "../components/Experiences";
 
-const sections = [AboutMe, HardSkills, SoftSkills, TechTools];
+const sections = [AboutMe, HardSkills, SoftSkills, TechTools, Experiences];
 
 const Home: NextPage = () => (
   <>
