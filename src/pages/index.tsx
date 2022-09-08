@@ -9,6 +9,7 @@ import TechTools from "../components/TechTools";
 import cn from "classnames";
 import Experiences from "../components/Experiences";
 import Educational from "../components/Educational";
+import Contact from "../components/Contact";
 
 const sections = [
   AboutMe,
@@ -17,6 +18,7 @@ const sections = [
   SoftSkills,
   TechTools,
   Experiences,
+  Contact,
 ];
 
 const Home: NextPage = () => (
