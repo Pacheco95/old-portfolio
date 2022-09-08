@@ -1,14 +1,6 @@
-import {
-  Box,
-  BoxProps,
-  Flex,
-  Heading,
-  HStack,
-  Link,
-  Stack,
-} from "@chakra-ui/react";
+import { Box, BoxProps, Flex, Heading, Link, Stack } from "@chakra-ui/react";
 import { useTranslation } from "next-i18next";
-import { SiLinkedin, SiGmail } from "react-icons/si";
+import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 import { Icon } from "@chakra-ui/icons";
 
 const contacts = [
@@ -16,6 +8,11 @@ const contacts = [
     icon: SiLinkedin,
     url: "https://www.linkedin.com/in/michaelpacheco95",
     description: "michaelpacheco95",
+  },
+  {
+    icon: SiGithub,
+    url: "https://github.com/Pacheco95",
+    description: "Pacheco95",
   },
   {
     icon: SiGmail,
@@ -33,16 +30,16 @@ const Contact = (props: BoxProps) => {
         <Heading textAlign="center" mb={4}>
           {t("title")}
         </Heading>
-        <HStack justify="space-around">
+        <Flex justify="center" wrap="wrap" gap={4}>
           {contacts.map(({ icon, url, description }) => (
-            <Link key={url} href={url} isExternal>
+            <Link key={url} href={url} isExternal minW="130px">
               <Flex direction="column" alignItems="center" gap={2}>
                 <Icon as={icon} boxSize={12} />
                 {description}
               </Flex>
             </Link>
           ))}
-        </HStack>
+        </Flex>
       </Stack>
     </Box>
   );
