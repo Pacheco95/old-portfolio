@@ -76,7 +76,7 @@ const Experiences = (props: BoxProps) => {
                 {formatDateRange(xp.since, xp.until)}
               </Text>
             </VStack>
-            <OrderedList listStyleType="none" spacing={6}>
+            <OrderedList m={0} listStyleType="none" spacing={6}>
               <ListItem>
                 <Heading as="h4" size="sm" mb={2}>
                   {xp.role.title}
@@ -91,7 +91,9 @@ const Experiences = (props: BoxProps) => {
                   </Heading>
                   <UnorderedList spacing={2}>
                     {section.value.map((responsibility, i) => (
-                      <ListItem key={i}>{responsibility}</ListItem>
+                      <ListItem key={i}>
+                        <Text>{responsibility}</Text>
+                      </ListItem>
                     ))}
                   </UnorderedList>
                 </ListItem>

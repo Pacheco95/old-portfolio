@@ -28,10 +28,10 @@ const TechTools = (props: BoxProps) => {
         <List textAlign="left" spacing={8}>
           {tools.map(({ category, values }) => (
             <Stack key={category}>
-              <Heading as="h3" size="md">
+              <Heading textAlign="center" as="h3" size="md">
                 {category}
               </Heading>
-              <Flex wrap="wrap" gap={2}>
+              <Flex wrap="wrap" justifyContent="center" gap={2}>
                 {values.map((value) => (
                   <Tag
                     size="lg"

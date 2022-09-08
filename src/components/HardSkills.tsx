@@ -1,15 +1,6 @@
-import {
-  Box,
-  BoxProps,
-  Heading,
-  List,
-  ListIcon,
-  ListItem,
-  Stack,
-} from "@chakra-ui/react";
+import { Box, BoxProps, Heading, Stack } from "@chakra-ui/react";
 import { useTranslation } from "next-i18next";
-
-import { CheckIcon } from "@chakra-ui/icons";
+import TwoColumnList from "./TwoColumnList";
 
 const HardSkills = (props: BoxProps) => {
   const { t } = useTranslation("hardSkills");
@@ -20,14 +11,7 @@ const HardSkills = (props: BoxProps) => {
     <Box {...props}>
       <Stack>
         <Heading textAlign="center">Hard Skills</Heading>
-        <List>
-          {hardSkills.map((skill, i) => (
-            <ListItem key={i}>
-              <ListIcon as={CheckIcon} />
-              {skill}
-            </ListItem>
-          ))}
-        </List>
+        <TwoColumnList items={hardSkills} />
       </Stack>
     </Box>
   );

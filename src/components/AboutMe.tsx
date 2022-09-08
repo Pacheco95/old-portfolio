@@ -15,8 +15,8 @@ const AboutMe = (props: BoxProps) => {
     <Box {...props}>
       <Stack textAlign="left">
         <Heading textAlign="center">{t("title")}</Heading>
-        <Text>{t("resume", { age })}</Text>
-        <Text>{t("description")}</Text>
+        <Text textAlign="justify">{t("resume", { age })}</Text>
+        <Text textAlign="justify">{t("description")}</Text>
       </Stack>
     </Box>
   );

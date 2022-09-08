@@ -10,6 +10,7 @@ import cn from "classnames";
 import Experiences from "../components/Experiences";
 import Educational from "../components/Educational";
 import Contact from "../components/Contact";
+import { Box } from "@chakra-ui/react";
 
 const sections = [
   AboutMe,
@@ -28,13 +29,9 @@ const Home: NextPage = () => (
     </Head>
     <Container as="main" height="100vh">
       {sections.map((Section, i) => (
-        <Section
-          bg={cn({ "purple.600": i % 2 })}
-          key={Section.name}
-          as="section"
-          width="100%"
-          p={4}
-        />
+        <Box key={Section.name} bg={cn({ "purple.600": i % 2 })} width="100%">
+          <Section as="section" p={4} maxW="800px" m="auto" />
+        </Box>
       ))}
     </Container>
   </>
