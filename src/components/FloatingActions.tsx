@@ -4,7 +4,7 @@ import SwitchLangButton from "./SwitchLangButton";
 
 const FloatingActions = () => {
   return (
-    <Box pos="fixed" right={4} bottom={4} display="flex">
+    <Box pos="fixed" right={0} bottom={4} display="flex">
       <SwitchLangButton />
       <Box
         borderLeft={1}

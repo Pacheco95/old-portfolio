@@ -5,6 +5,7 @@ const SwitchThemeButton = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <IconButton
+      fontSize={24}
       icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
       color="primary"
       variant="link"

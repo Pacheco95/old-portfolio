@@ -14,8 +14,8 @@ const config: ThemeConfig = {
 
 const override: ThemeOverride = {
   fonts: {
-    body: `'Open Sans', sans-serif`,
-    heading: `'Open Sans', sans-serif`,
+    body: `'Roboto', sans-serif`,
+    heading: `'Roboto', sans-serif`,
   },
 };
 
